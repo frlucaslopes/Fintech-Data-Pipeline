@@ -1,8 +1,8 @@
 # Fintech-Data-Pipeline
 Uma fintech digital que precisa analisar transações e comportamento dos usuários para tomada de decisão.
 
-💳 Fintech Data Pipeline — Transaction & User Behavior Analytics
-📌 Overview
+# 💳 Fintech Data Pipeline — Transaction & User Behavior Analytics
+## 📌 Overview
 
 Este projeto simula um cenário real de uma fintech digital, focado na construção de um pipeline de dados completo para análise de:
 
@@ -12,7 +12,7 @@ Qualidade dos dados
 
 O objetivo é transformar dados brutos em insights acionáveis para tomada de decisão.
 
-🎯 Business Problem
+## 🎯 Business Problem
 
 Uma fintech precisa responder perguntas críticas como:
 
