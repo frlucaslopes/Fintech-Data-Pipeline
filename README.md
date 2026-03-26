@@ -41,7 +41,7 @@ Informações de cadastro dos usuários:
 | signup_date  | Data de cadastro       |
 | country      | País do usuário        |
 | plan         | Plano (free / premium) |
-```
+````
 ### 💳 Transactions (transactions.csv)
 
 Dados de transações financeiras:
