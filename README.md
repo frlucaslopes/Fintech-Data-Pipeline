@@ -6,9 +6,9 @@ Uma fintech digital que precisa analisar transações e comportamento dos usuár
 
 Este projeto simula um cenário real de uma fintech digital, focado na construção de um pipeline de dados completo para análise de:
 
-Transações financeiras
-Comportamento dos usuários
-Qualidade dos dados
+- Transações financeiras
+- Comportamento dos usuários
+- Qualidade dos dados
 
 O objetivo é transformar dados brutos em insights acionáveis para tomada de decisão.
 
