@@ -67,7 +67,7 @@ Eventos de comportamento do usuário:
 | timestamp  | Data e hora                           |
 ```
 
-⚙️ Pipeline Architecture
+## ⚙️ Pipeline Architecture
 
 O pipeline segue três etapas principais:
 
@@ -75,25 +75,27 @@ O pipeline segue três etapas principais:
 - Leitura dos arquivos CSV
 - Validação de estrutura e schema
 - Tratamento inicial de dados
+- 
 ## 🔹 2. Transformation
 
 Cálculo de métricas de negócio:
 
-## 📈 Financial Metrics
+📈 Financial Metrics
 - Total Transaction Volume
 - Average Ticket (Ticket Médio)
 - Success Rate (% de sucesso)
-## 👤 User Metrics
+👤 User Metrics
 - Daily Active Users (DAU)
 - Eventos por usuário
 - Engajamento
-## 🧠 Combined Metrics
+🧠 Combined Metrics
 - Receita por usuário
 - Relação atividade vs transação
 ## 🔹 3. Load
 Escrita dos dados transformados em:
 - daily_metrics.csv
 - user_metrics.csv
+
 ## 🏗️ Project Structure
 fintech-data-pipeline/
 ```
