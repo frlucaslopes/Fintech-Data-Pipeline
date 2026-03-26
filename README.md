@@ -75,7 +75,6 @@ O pipeline segue três etapas principais:
 - Leitura dos arquivos CSV
 - Validação de estrutura e schema
 - Tratamento inicial de dados
-- 
 ## 🔹 2. Transformation
 
 Cálculo de métricas de negócio:
