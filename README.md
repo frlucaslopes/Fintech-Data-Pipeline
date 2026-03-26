@@ -1,8 +1,8 @@
 # Fintech-Data-Pipeline
 Uma fintech digital que precisa analisar transações e comportamento dos usuários para tomada de decisão.
 
-# 💳 Fintech Data Pipeline — Transaction & User Behavior Analytics
-## 📌 Overview
+# Fintech Data Pipeline — Transaction & User Behavior Analytics
+## Overview
 
 Este projeto simula um cenário real de uma fintech digital, focado na construção de um pipeline de dados completo para análise de:
 
@@ -12,7 +12,7 @@ Este projeto simula um cenário real de uma fintech digital, focado na construç
 
 O objetivo é transformar dados brutos em insights acionáveis para tomada de decisão.
 
-## 🎯 Business Problem
+## Business Problem
 
 Uma fintech precisa responder perguntas críticas como:
 
@@ -20,18 +20,18 @@ Uma fintech precisa responder perguntas críticas como:
 - Qual a taxa de sucesso das transações?
 - Como os usuários interagem com a plataforma?
 - Existe relação entre atividade e geração de receita?
-## 🧠 Solution
+## Solution
 
 Construção de um pipeline de dados (ETL) que:
 
 - Ingere dados brutos (CSV)
 - Transforma e calcula métricas de negócio
 - Entrega datasets prontos para análise
-## 📊 Data Sources
+## Data Sources
 
 O projeto utiliza 3 fontes principais:
 
-### 🧑‍💼 Users (users.csv)
+### Users (users.csv)
 
 Informações de cadastro dos usuários:
 ````
@@ -42,7 +42,7 @@ Informações de cadastro dos usuários:
 | country      | País do usuário        |
 | plan         | Plano (free / premium) |
 ````
-### 💳 Transactions (transactions.csv)
+### Transactions (transactions.csv)
 
 Dados de transações financeiras:
 ```
@@ -55,7 +55,7 @@ Dados de transações financeiras:
 | status           | Status (success, failed)            |
 | timestamp        | Data e hora                         |
 ```
-### 📲 Events (events.csv)
+### Events (events.csv)
 
 Eventos de comportamento do usuário:
 ```
@@ -67,35 +67,35 @@ Eventos de comportamento do usuário:
 | timestamp  | Data e hora                           |
 ```
 
-## ⚙️ Pipeline Architecture
+## Pipeline Architecture
 
 O pipeline segue três etapas principais:
 
-## 🔹 1. Ingestion
+## 1. Ingestion
 - Leitura dos arquivos CSV
 - Validação de estrutura e schema
 - Tratamento inicial de dados
-## 🔹 2. Transformation
+## 2. Transformation
 
 Cálculo de métricas de negócio:
 
-📈 Financial Metrics
+Financial Metrics
 - Total Transaction Volume
 - Average Ticket (Ticket Médio)
 - Success Rate (% de sucesso)
-👤 User Metrics
+User Metrics
 - Daily Active Users (DAU)
 - Eventos por usuário
 - Engajamento
-🧠 Combined Metrics
+Combined Metrics
 - Receita por usuário
 - Relação atividade vs transação
-## 🔹 3. Load
+## 3. Load
 Escrita dos dados transformados em:
 - daily_metrics.csv
 - user_metrics.csv
 
-## 🏗️ Project Structure
+## Project Structure
 fintech-data-pipeline/
 ```
 ├── data/
