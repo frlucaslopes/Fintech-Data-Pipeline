@@ -34,32 +34,39 @@ O projeto utiliza 3 fontes principais:
 ### 🧑‍💼 Users (users.csv)
 
 Informações de cadastro dos usuários:
-
-- Column	Description
-- user_id	Identificador único
-- signup_date	Data de cadastro
-- country	País do usuário
-- plan	Plano (free / premium)
+````
+| Column       | Description            |
+|--------------|------------------------|
+| user_id      | Identificador único    |
+| signup_date  | Data de cadastro       |
+| country      | País do usuário        |
+| plan         | Plano (free / premium) |
+```
 ### 💳 Transactions (transactions.csv)
 
 Dados de transações financeiras:
-
-- Column	Description
-- transaction_id	ID da transação
-- user_id	ID do usuário
-- amount	Valor da transação
-- transaction_type	Tipo (deposit, withdrawal, payment)
-- status	Status (success, failed)
-- timestamp	Data e hora
+```
+| Column            | Description                         |
+|------------------|-------------------------------------|
+| transaction_id   | ID da transação                     |
+| user_id          | ID do usuário                       |
+| amount           | Valor da transação                  |
+| transaction_type | Tipo (deposit, withdrawal, payment) |
+| status           | Status (success, failed)            |
+| timestamp        | Data e hora                         |
+```
 ### 📲 Events (events.csv)
 
 Eventos de comportamento do usuário:
+```
+| Column     | Description                           |
+|------------|---------------------------------------|
+| event_id   | ID do evento                          |
+| user_id    | ID do usuário                         |
+| event_type | Tipo (login, transfer, payment_click) |
+| timestamp  | Data e hora                           |
+```
 
-- Column	Description
-- event_id	ID do evento
-- user_id	ID do usuário
-- event_type	Tipo (login, transfer, payment_click)
-- timestamp	Data e hora
 ⚙️ Pipeline Architecture
 
 O pipeline segue três etapas principais:
