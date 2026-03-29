@@ -79,4 +79,4 @@ events = pd.DataFrame({
 
 events.to_csv("data/raw/events.csv", index=False)
 
-print("✅ Dados gerados com sucesso em data/raw/")
+print("Dados gerados com sucesso em data/raw/")
