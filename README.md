@@ -148,7 +148,7 @@ fintech-data-pipeline/
 ## How to Run
 
 ```bash
-git clone https://github.com/seu-usuario/fintech-data-pipeline.git
+git clone https://github.com/frlucaslopes/fintech-data-pipeline.git
 cd fintech-data-pipeline
 pip install -r requirements.txt
 python main.py
