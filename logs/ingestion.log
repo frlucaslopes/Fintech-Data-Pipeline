@@ -94,3 +94,36 @@
 2026-04-09 15:38:39,015 - INFO - Saved file: data/processed\events_per_user.csv | Rows: 1000
 2026-04-09 15:38:39,018 - INFO - Saved file: data/processed\revenue_per_user.csv | Rows: 1000
 2026-04-09 15:38:39,018 - INFO - Load layer completed successfully
+2026-04-09 16:14:11,214 - INFO - Starting ingestion pipeline...
+2026-04-09 16:14:11,224 - INFO - Loaded file: data/raw\users.csv | Rows: 1000
+2026-04-09 16:14:11,224 - INFO - users columns validated
+2026-04-09 16:14:11,235 - INFO - users types casted
+2026-04-09 16:14:11,239 - INFO - users null values: 0
+2026-04-09 16:14:11,239 - INFO - users duplicate rows: 0
+2026-04-09 16:14:11,248 - INFO - Saved SILVER file: data/silver\users_clean.csv | Rows: 1000
+2026-04-09 16:14:11,274 - INFO - Loaded file: data/raw\transactions.csv | Rows: 15000
+2026-04-09 16:14:11,274 - INFO - transactions columns validated
+2026-04-09 16:14:11,293 - INFO - transactions types casted
+2026-04-09 16:14:11,301 - INFO - transactions null values: 0
+2026-04-09 16:14:11,301 - INFO - transactions duplicate rows: 0
+2026-04-09 16:14:11,386 - INFO - Saved SILVER file: data/silver\transactions_clean.csv | Rows: 15000
+2026-04-09 16:14:11,424 - INFO - Loaded file: data/raw\events.csv | Rows: 30000
+2026-04-09 16:14:11,424 - INFO - events columns validated
+2026-04-09 16:14:11,460 - INFO - events types casted
+2026-04-09 16:14:11,468 - INFO - events null values: 0
+2026-04-09 16:14:11,468 - INFO - events duplicate rows: 0
+2026-04-09 16:14:11,593 - INFO - Saved SILVER file: data/silver\events_clean.csv | Rows: 30000
+2026-04-09 16:14:11,593 - INFO - Ingestion pipeline completed successfully
+2026-04-09 16:14:11,593 - INFO - Starting transformation layer...
+2026-04-09 16:14:11,634 - INFO - Financial metrics calculated
+2026-04-09 16:14:11,652 - INFO - User metrics calculated
+2026-04-09 16:14:11,662 - INFO - Combined metrics calculated
+2026-04-09 16:14:11,666 - INFO - Revenue per user calculated
+2026-04-09 16:14:11,667 - INFO - Transformation completed
+2026-04-09 16:14:11,667 - INFO - Starting load layer...
+2026-04-09 16:14:11,669 - INFO - Saved file: data/processed\daily_metrics.csv | Rows: 92
+2026-04-09 16:14:11,676 - INFO - Saved file: data/processed\user_metrics.csv | Rows: 1000
+2026-04-09 16:14:11,679 - INFO - Saved file: data/processed\daily_active_users.csv | Rows: 92
+2026-04-09 16:14:11,681 - INFO - Saved file: data/processed\events_per_user.csv | Rows: 1000
+2026-04-09 16:14:11,684 - INFO - Saved file: data/processed\revenue_per_user.csv | Rows: 1000
+2026-04-09 16:14:11,684 - INFO - Load layer completed successfully
