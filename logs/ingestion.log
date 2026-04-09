@@ -1,0 +1,96 @@
+2026-04-08 11:16:02,041 - INFO - Starting ingestion pipeline...
+2026-04-08 11:16:02,050 - INFO - Loaded file: data/raw/users.csv | Rows: 1000
+2026-04-08 11:16:02,051 - INFO - users columns validated
+2026-04-08 11:16:02,063 - INFO - users types casted
+2026-04-08 11:16:02,067 - INFO - users null values: 0
+2026-04-08 11:16:02,068 - INFO - users duplicate rows: 0
+2026-04-08 11:16:02,098 - INFO - Loaded file: data/raw/transactions.csv | Rows: 15000
+2026-04-08 11:16:02,098 - INFO - transactions columns validated
+2026-04-08 11:16:02,118 - INFO - transactions types casted
+2026-04-08 11:16:02,125 - INFO - transactions null values: 0
+2026-04-08 11:16:02,126 - INFO - transactions duplicate rows: 0
+2026-04-08 11:16:02,163 - INFO - Loaded file: data/raw/events.csv | Rows: 30000
+2026-04-08 11:16:02,163 - INFO - events columns validated
+2026-04-08 11:16:02,199 - INFO - events types casted
+2026-04-08 11:16:02,209 - INFO - events null values: 0
+2026-04-08 11:16:02,209 - INFO - events duplicate rows: 0
+2026-04-08 11:16:02,209 - INFO - Ingestion pipeline completed successfully
+2026-04-08 11:16:02,209 - INFO - Starting transformation layer...
+2026-04-08 11:16:02,243 - INFO - Financial metrics calculated
+2026-04-08 11:16:02,261 - INFO - User metrics calculated
+2026-04-08 11:16:02,271 - INFO - Combined metrics calculated
+2026-04-08 11:16:02,276 - INFO - Revenue per user calculated
+2026-04-08 11:16:02,276 - INFO - Transformation completed
+2026-04-08 11:16:02,276 - INFO - Starting load layer...
+2026-04-08 11:16:02,280 - INFO - Saved file: data/processed\daily_metrics.csv | Rows: 92
+2026-04-08 11:16:02,288 - INFO - Saved file: data/processed\user_metrics.csv | Rows: 1000
+2026-04-08 11:16:02,291 - INFO - Saved file: data/processed\daily_active_users.csv | Rows: 92
+2026-04-08 11:16:02,295 - INFO - Saved file: data/processed\events_per_user.csv | Rows: 1000
+2026-04-08 11:16:02,298 - INFO - Saved file: data/processed\revenue_per_user.csv | Rows: 1000
+2026-04-08 11:16:02,298 - INFO - Load layer completed successfully
+2026-04-09 14:08:38,315 - INFO - Starting ingestion pipeline...
+2026-04-09 14:08:38,325 - INFO - Loaded file: data/raw\users.csv | Rows: 1000
+2026-04-09 14:08:38,325 - INFO - users columns validated
+2026-04-09 14:08:38,337 - INFO - users types casted
+2026-04-09 14:08:38,341 - INFO - users null values: 0
+2026-04-09 14:08:38,341 - INFO - users duplicate rows: 0
+2026-04-09 14:08:38,350 - INFO - Saved SILVER file: data/silver\users_clean.csv | Rows: 1000
+2026-04-09 14:08:38,374 - INFO - Loaded file: data/raw\transactions.csv | Rows: 15000
+2026-04-09 14:08:38,374 - INFO - transactions columns validated
+2026-04-09 14:08:38,393 - INFO - transactions types casted
+2026-04-09 14:08:38,400 - INFO - transactions null values: 0
+2026-04-09 14:08:38,400 - INFO - transactions duplicate rows: 0
+2026-04-09 14:08:38,476 - INFO - Saved SILVER file: data/silver\transactions_clean.csv | Rows: 15000
+2026-04-09 14:08:38,509 - INFO - Loaded file: data/raw\events.csv | Rows: 30000
+2026-04-09 14:08:38,509 - INFO - events columns validated
+2026-04-09 14:08:38,558 - INFO - events types casted
+2026-04-09 14:08:38,565 - INFO - events null values: 0
+2026-04-09 14:08:38,566 - INFO - events duplicate rows: 0
+2026-04-09 14:08:38,686 - INFO - Saved SILVER file: data/silver\events_clean.csv | Rows: 30000
+2026-04-09 14:08:38,686 - INFO - Ingestion pipeline completed successfully
+2026-04-09 14:08:38,686 - INFO - Starting transformation layer...
+2026-04-09 14:08:38,722 - INFO - Financial metrics calculated
+2026-04-09 14:08:38,739 - INFO - User metrics calculated
+2026-04-09 14:08:38,748 - INFO - Combined metrics calculated
+2026-04-09 14:08:38,752 - INFO - Revenue per user calculated
+2026-04-09 14:08:38,753 - INFO - Transformation completed
+2026-04-09 14:08:38,753 - INFO - Starting load layer...
+2026-04-09 14:08:38,755 - INFO - Saved file: data/processed\daily_metrics.csv | Rows: 92
+2026-04-09 14:08:38,762 - INFO - Saved file: data/processed\user_metrics.csv | Rows: 1000
+2026-04-09 14:08:38,767 - INFO - Saved file: data/processed\daily_active_users.csv | Rows: 92
+2026-04-09 14:08:38,772 - INFO - Saved file: data/processed\events_per_user.csv | Rows: 1000
+2026-04-09 14:08:38,778 - INFO - Saved file: data/processed\revenue_per_user.csv | Rows: 1000
+2026-04-09 14:08:38,778 - INFO - Load layer completed successfully
+2026-04-09 15:38:38,514 - INFO - Starting ingestion pipeline...
+2026-04-09 15:38:38,524 - INFO - Loaded file: data/raw\users.csv | Rows: 1000
+2026-04-09 15:38:38,524 - INFO - users columns validated
+2026-04-09 15:38:38,537 - INFO - users types casted
+2026-04-09 15:38:38,542 - INFO - users null values: 0
+2026-04-09 15:38:38,542 - INFO - users duplicate rows: 0
+2026-04-09 15:38:38,553 - INFO - Saved SILVER file: data/silver\users_clean.csv | Rows: 1000
+2026-04-09 15:38:38,583 - INFO - Loaded file: data/raw\transactions.csv | Rows: 15000
+2026-04-09 15:38:38,584 - INFO - transactions columns validated
+2026-04-09 15:38:38,604 - INFO - transactions types casted
+2026-04-09 15:38:38,611 - INFO - transactions null values: 0
+2026-04-09 15:38:38,611 - INFO - transactions duplicate rows: 0
+2026-04-09 15:38:38,699 - INFO - Saved SILVER file: data/silver\transactions_clean.csv | Rows: 15000
+2026-04-09 15:38:38,736 - INFO - Loaded file: data/raw\events.csv | Rows: 30000
+2026-04-09 15:38:38,736 - INFO - events columns validated
+2026-04-09 15:38:38,776 - INFO - events types casted
+2026-04-09 15:38:38,787 - INFO - events null values: 0
+2026-04-09 15:38:38,788 - INFO - events duplicate rows: 0
+2026-04-09 15:38:38,928 - INFO - Saved SILVER file: data/silver\events_clean.csv | Rows: 30000
+2026-04-09 15:38:38,928 - INFO - Ingestion pipeline completed successfully
+2026-04-09 15:38:38,928 - INFO - Starting transformation layer...
+2026-04-09 15:38:38,969 - INFO - Financial metrics calculated
+2026-04-09 15:38:38,986 - INFO - User metrics calculated
+2026-04-09 15:38:38,996 - INFO - Combined metrics calculated
+2026-04-09 15:38:39,001 - INFO - Revenue per user calculated
+2026-04-09 15:38:39,001 - INFO - Transformation completed
+2026-04-09 15:38:39,001 - INFO - Starting load layer...
+2026-04-09 15:38:39,004 - INFO - Saved file: data/processed\daily_metrics.csv | Rows: 92
+2026-04-09 15:38:39,010 - INFO - Saved file: data/processed\user_metrics.csv | Rows: 1000
+2026-04-09 15:38:39,012 - INFO - Saved file: data/processed\daily_active_users.csv | Rows: 92
+2026-04-09 15:38:39,015 - INFO - Saved file: data/processed\events_per_user.csv | Rows: 1000
+2026-04-09 15:38:39,018 - INFO - Saved file: data/processed\revenue_per_user.csv | Rows: 1000
+2026-04-09 15:38:39,018 - INFO - Load layer completed successfully
