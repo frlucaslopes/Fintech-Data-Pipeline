@@ -1,6 +1,7 @@
 # Fintech Data Pipeline — Transaction & User Behavior Analytics (Análise de transações e comportamento do usuário)
 
 ## Overview (visão Geral)
+<img width="1536" height="1024" alt="arquitetura projeto" src="https://github.com/user-attachments/assets/f1ae5b62-750c-45cf-bad9-dff161a8f6ed" />
 
 Este projeto simula um ambiente real de uma fintech digital, com foco na construção de um pipeline de dados completo para análise de:
 
